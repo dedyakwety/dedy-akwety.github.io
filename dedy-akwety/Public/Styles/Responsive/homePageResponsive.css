@@ -1,0 +1,1374 @@
+@media screen and (max-width: 1279px){
+    body{
+        font-family: 'open sans',sans-serif;
+        background-color: #d4d4d4;
+    }
+    .div-fixed{
+        background-color: #888888;
+        position: fixed;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .photo-1{
+        position: absolute;
+        left: 5%;
+        bottom: 10vh;
+        box-shadow: 0px 0px 10px #d4d4d4;
+    }
+    /* div de la tete fixe */
+    .div-tete{
+        background-color: #d4d4d4;
+        position: fixed;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 15vh;
+    }
+    .mon-logo{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 14%;
+        height: 60%;
+    }
+    .div-liens{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        width: 30%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+        font-size: 16px;
+        margin-top: 14%;
+    }
+    
+    /* header */
+    header{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .div-bienvenu{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+        height: 60%;
+    }
+    .photo-bienvenu{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    /* les divs aui couvres la div-header-1 gauche droite haut bas */
+    .div-h-1{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        height: 10%;
+    }
+    .div-h-2{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        width: 100%;
+        height: 30%;
+    }
+    /* div reseaux sociaux*/
+    .div-reseaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        width: 60%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-reseaux-sociaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo{
+        width: 80%;
+        height: 100%;
+    }
+    .p-logo{
+        font-size: 14px;
+    }
+    .div-valeur{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .div-header-1-1{
+        background-color: gray;
+        position: absolute;
+        top: 20vh;
+        left: 10%;
+        width: 80%;
+        height: 50vh;
+        opacity: 0.8;
+    }
+    /* section */
+    section{
+        background-color: #888888;
+        position: absolute;
+        top: 100vh;
+        left: 40%;
+        width: 60%;
+        height: 190vh;
+    }
+    .div-h2-parcour{
+        background-color: #d4d4d4;
+        position: relative;
+        top: 95vh;
+        left: 60%;
+        width: 20%;
+        height: 8vh;
+        border-radius: 50px;
+    }
+    .div-parcour{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 2%;
+        left: 2.5%;
+        width: 95%;
+        height: 84vh;
+        border-radius: 30px;
+        box-shadow: 0px 0px 100px #d4d4d4;
+    }
+    .div-contenu-parcour{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 90%;
+        height: 85%;
+    }
+    .div-h2-competences{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 87vh;
+        left: 35%;
+        width: 30%;
+        height: 8vh;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    h2{
+        position: absolute;
+        left: 15%;
+        top: 7%;
+        font-size: 18px;
+    }
+    .h2{
+        margin-left: 7%;
+    }
+    .div-competences{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 94vh;
+        left: 2.5%;
+        width: 95%;
+        height: 96vh;
+        border-radius: 50%;
+        box-shadow: 0px 0px 100px #d4d4d4;
+    }
+    .div-competences-1{
+        background-color: transparent;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 50px;
+    }
+    .competence{
+        background-color: #d4d4d4;
+        width: 21%;
+        height: 25%;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+    }
+    .p-competence{
+        margin-top: 40%;
+        text-align: center;
+        font-size: 15px;
+    }
+    footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 290vh;
+        left: 0%;
+        width: 100%;
+        height: 10vh;
+    }
+    .div-footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .p-footer{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    body{
+        font-family: 'open sans',sans-serif;
+        background-color: bisque;
+    }
+    .div-fixed{
+        background-color: #d4d4d4;
+        position: fixed;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .photo-1{
+        position: absolute;
+        left: 5%;
+        bottom: 0vh;
+        box-shadow: 0px 0px 10px #d4d4d4;
+    }
+    /* div de la tete fixe */
+    .div-tete{
+        background-color: #d4d4d4;
+        position: fixed;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 15vh;
+    }
+    .mon-logo{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 15%;
+        height: 60%;
+    }
+    .div-liens{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 20%;
+        left: 43%;
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+        font-size: 16px;
+        margin-top: 8%;
+    }
+    
+    /* header */
+    header{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .div-bienvenu{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+        height: 60%;
+    }
+    .photo-bienvenu{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    /* les divs aui couvres la div-header-1 gauche droite haut bas */
+    .div-h-1{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        height: 10%;
+    }
+    .div-h-2{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        width: 100%;
+        height: 30%;
+    }
+    /* div reseaux sociaux*/
+    .div-reseaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        width: 60%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-reseaux-sociaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo{
+        width: 85%;
+        height: 100%;
+    }
+    .p-logo{
+        font-size: 12px;
+    }
+    .div-valeur{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .div-header-1-1{
+        background-color: gray;
+        position: absolute;
+        top: 20vh;
+        left: 10%;
+        width: 80%;
+        height: 50vh;
+        opacity: 0.8;
+    }
+    /* section */
+    section{
+        background-color: transparent;
+        position: absolute;
+        top: 100vh;
+        left: 0%;
+        width: 100%;
+        height: 160vh;
+        opacity: 0.7;
+        border-top: 1px solid gray;
+    }
+    .div-h2-competences{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 80vh;
+        left: 25%;
+        width: 50%;
+        height: 7vh;
+        border-radius: 50px;
+        box-shadow: 10px 10px 100px gray;
+    }
+    h2{
+        position: absolute;
+        left: 30%;
+        top: 0%;
+        font-size: 16px;
+    }
+    .div-competences{
+        background-color: transparent;
+        position: absolute;
+        top: 95vh;
+        left: 5%;
+        width: 90%;
+        height: 60vh;
+        border-radius: 5%;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    .div-competences-1{
+        background-color: transparent;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 50px;
+    }
+    .competence{
+        background-color: gray;
+        width: 21%;
+        height: 3%;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+    }
+    .p-competence{
+        margin-top: 27%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .competence:hover{
+        color: green;
+    }
+    .div-h2-parcour{
+        background-color: #d4d4d4;
+        position: relative;
+        top: 96vh;
+        left: 25%;
+        width: 50%;
+        height: 6vh;
+        border-radius: 50px;
+        box-shadow: 0px 0px 100px gray;
+    }
+    .div-parcour{
+        background-color: transparent;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        height: 65vh;
+        border-radius: 0px;
+        padding-top: 5%;
+        box-shadow: 0px 0px 0px gray;
+    }
+    .div-contenu-parcour{
+        background-color: transparent;
+        position: absolute;
+        top: 13%;
+        left: 2.5%;
+        width: 95%;
+        height: 80%;
+    }
+    footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 260vh;
+        left: 0%;
+        width: 100%;
+        height: 10vh;
+    }
+    .div-footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        width: 70%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .p-footer{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 680px){
+    body{
+        font-family: 'open sans',sans-serif;
+        background-color: bisque;
+    }
+    .div-fixed{
+        background-color: #d4d4d4;
+        position: fixed;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .photo-1{
+        position: absolute;
+        left: 5%;
+        bottom: 5vh;
+        box-shadow: 0px 0px 10px #d4d4d4;
+    }
+    /* div de la tete fixe */
+    .div-tete{
+        background-color: #d4d4d4;
+        position: fixed;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 15vh;
+    }
+    .mon-logo{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 15%;
+        height: 60%;
+    }
+    .div-liens{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 20%;
+        left: 43%;
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+        font-size: 14px;
+        margin-top: 10%;
+    }
+    
+    /* header */
+    header{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .div-bienvenu{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+        height: 60%;
+    }
+    .photo-bienvenu{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    /* les divs aui couvres la div-header-1 gauche droite haut bas */
+    .div-h-1{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        height: 10%;
+    }
+    .div-h-2{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        width: 100%;
+        height: 30%;
+    }
+    /* div reseaux sociaux*/
+    .div-reseaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        width: 70%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-reseaux-sociaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo{
+        width: 85%;
+        height: 100%;
+    }
+    .p-logo{
+        font-size: 11px;
+    }
+    .div-valeur{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .div-bienvenu{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 80%;
+        height: 50%;
+    }
+    .photo-bienvenu{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    /* section */
+    section{
+        background-color: transparent;
+        position: absolute;
+        top: 100vh;
+        left: 0%;
+        width: 100%;
+        height: 160vh;
+        opacity: 0.7;
+        border-top: 1px solid gray;
+    }
+    .div-h2-competences{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 78vh;
+        left: 25%;
+        width: 50%;
+        height: 7vh;
+        border-radius: 50px;
+        box-shadow: 10px 10px 100px gray;
+    }
+    h2{
+        position: absolute;
+        left: 20%;
+        top: 3%;
+        font-size: 16px;
+    }
+    .div-competences{
+        background-color: transparent;
+        position: absolute;
+        top: 90vh;
+        left: 0%;
+        width: 100%;
+        height: 67vh;
+        border-radius: 5%;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    .div-competences-1{
+        background-color: transparent;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        width: 90%;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 50px;
+    }
+    .competence{
+        background-color: gray;
+        width: 21%;
+        height: 2%;
+        border-radius: 50px;
+        box-shadow: 0px 0px 80px gray;
+    }
+    .p-competence{
+        margin-top: 27%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .div-h2-parcour{
+        background-color: #d4d4d4;
+        position: relative;
+        top: 96vh;
+        left: 25%;
+        width: 50%;
+        height: 6vh;
+        border-radius: 50px;
+        box-shadow: 0px 0px 100px gray;
+    }
+    .div-parcour{
+        background-color: transparent;
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        width: 100%;
+        height: 75vh;
+        border-radius: 0px;
+        padding-top: 5%;
+        border-bottom: 1px solid gray;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    .div-contenu-parcour{
+        background-color: transparent;
+        position: absolute;
+        top: 5%;
+        left: 2.5%;
+        width: 95%;
+        height: 85%;
+    }
+    footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 260vh;
+        left: 0%;
+        width: 100%;
+        height: 10vh;
+    }
+    .div-footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        width: 70%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .p-footer{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) and (orientation: portrait){
+    body{
+        font-family: 'open sans',sans-serif;
+        background-color: #d4d4d4;
+    }
+    .div-fixed{
+        position: fixed;
+        background-color: #d4d4d4;
+        top: auto;
+        left: 0vh;
+        width: 100%;
+        height: 100vh;
+    }
+    .photo-1{
+        position: absolute;
+        left: 3%;
+        top: 16%;
+        bottom: -5%;
+        box-shadow: 0px 0px 10px #d4d4d4;
+    }
+    /* div de la tete fixe */
+    .div-tete{
+        margin-top: 0%;
+        background-color: #d4d4d4;
+        position: fixed;
+        background-position: center;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 20vh;
+    }
+    .mon-logo{
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        width: 20%;
+        height: 45%;
+    }
+    .div-liens{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 55%;
+        left: 17.5%;
+        width: 65%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+        font-size: 14px;
+        margin-top: 9%;
+    }
+    /* header */
+    header{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    /* les divs aui couvres la div-header-1 gauche droite haut bas */
+    .div-h-1{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 20vh;
+        left: 0%;
+        width: 100%;
+        height: 10vh;
+    }
+    .div-h-2{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 65vh;
+        left: 0%;
+        width: 100%;
+        height: 26vh;
+    }
+    /* div reseaux sociaux*/
+    .div-reseaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-reseaux-sociaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 2%;
+    }
+    .logo{
+        width: 60%;
+        height: 90%;
+    }
+    .p-logo{
+        font-size: 10.5px;
+    }
+    .div-valeur{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .div-bienvenu{
+        position: absolute;
+        top: 25%;
+        left: 0%;
+        width: 100%;
+        height: 40%;
+    }
+    .photo-bienvenu{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        -webkit-animation-name: changer-taille;
+        -webkit-animation-duration: 4s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-delay: 1s;
+        -webkit-animation-iteration-count: 2;
+        -webkit-animation-direction: alternate;
+    
+        -moz-animation-name: changer-taille;
+        -moz-animation-duration: 4s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-delay: 1s;
+        -moz-animation-iteration-count: 2;
+        -moz-animation-direction: alternate;
+    
+        -o-animation-name: changer-taille;
+        -o-animation-duration: 4s;
+        -o-animation-timing-function: linear;
+        -o-animation-delay: 1s;
+        -o-animation-iteration-count: 2;
+        -o-animation-direction: alternate;
+    
+        animation-name: changer-taille;
+        animation-duration: 4s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    @-webkit-keyframes changer-taille{
+        10%{left: 45%; top: 45%; width: 10%; height: 10%;}
+        20%{left: 40%; top: 40%; width: 20%; height: 20%;}
+        30%{left: 35%; top: 35%; width: 30%; height: 30%;}
+        40%{left: 30%; top: 30%; width: 40%; height: 40%;}
+        50%{left: 25%; top: 25%; width: 50%; height: 50%;}
+        60%{left: 20%; top: 20%; width: 60%; height: 60%;}
+        70%{left: 15%; top: 15%; width: 70%; height: 70%;}
+        80%{left: 10%; top: 10%; width: 80%; height: 80%;}
+        90%{left: 5%; top: 5%; width: 90%; height: 90%;}
+        100%{left: 0%; top: 0%; width: 100%; height: 100%;}
+    }
+    @-moz-keyframes changer-taille{
+        10%{left: 45%; top: 45%; width: 10%; height: 10%;}
+        20%{left: 40%; top: 40%; width: 20%; height: 20%;}
+        30%{left: 35%; top: 35%; width: 30%; height: 30%;}
+        40%{left: 30%; top: 30%; width: 40%; height: 40%;}
+        50%{left: 25%; top: 25%; width: 50%; height: 50%;}
+        60%{left: 20%; top: 20%; width: 60%; height: 60%;}
+        70%{left: 15%; top: 15%; width: 70%; height: 70%;}
+        80%{left: 10%; top: 10%; width: 80%; height: 80%;}
+        90%{left: 5%; top: 5%; width: 90%; height: 90%;}
+        100%{left: 0%; top: 0%; width: 100%; height: 100%;}
+    }
+    @-o-keyframes changer-taille{
+        10%{left: 45%; top: 45%; width: 10%; height: 10%;}
+        20%{left: 40%; top: 40%; width: 20%; height: 20%;}
+        30%{left: 35%; top: 35%; width: 30%; height: 30%;}
+        40%{left: 30%; top: 30%; width: 40%; height: 40%;}
+        50%{left: 25%; top: 25%; width: 50%; height: 50%;}
+        60%{left: 20%; top: 20%; width: 60%; height: 60%;}
+        70%{left: 15%; top: 15%; width: 70%; height: 70%;}
+        80%{left: 10%; top: 10%; width: 80%; height: 80%;}
+        90%{left: 5%; top: 5%; width: 90%; height: 90%;}
+        100%{left: 0%; top: 0%; width: 100%; height: 100%;}
+    }
+    @keyframes changer-taille{
+        10%{left: 45%; top: 45%; width: 10%; height: 10%;}
+        20%{left: 40%; top: 40%; width: 20%; height: 20%;}
+        30%{left: 35%; top: 35%; width: 30%; height: 30%;}
+        40%{left: 30%; top: 30%; width: 40%; height: 40%;}
+        50%{left: 25%; top: 25%; width: 50%; height: 50%;}
+        60%{left: 20%; top: 20%; width: 60%; height: 60%;}
+        70%{left: 15%; top: 15%; width: 70%; height: 70%;}
+        80%{left: 10%; top: 10%; width: 80%; height: 80%;}
+        90%{left: 5%; top: 5%; width: 90%; height: 90%;}
+        100%{left: 0%; top: 0%; width: 100%; height: 100%;}
+    }
+    /* section */
+    section{
+        background-color: transparent;
+        position: absolute;
+        top: 100vh;
+        left: 0%;
+        width: 100%;
+        height: 160vh;
+        border-top: 1px solid gray;
+    }
+    .div-h2-parcour{
+        background-color: #d4d4d4;
+        position: relative;
+        top: 96vh;
+        left: 25%;
+        width: 50%;
+        height: 6vh;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+    }
+    .div-parcour{
+        background-color: transparent;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        height: 80vh;
+        border-radius: 0px;
+        padding-top: 5%;
+        border-top: 0px solid gray;
+        border-bottom: 0px solid gray;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    .div-contenu-parcour{
+        background-color: transparent;
+        position: absolute;
+        top: 0%;
+        left: 2.5%;
+        width: 95%;
+        height: 90%;
+    }
+    .div-h2-competences{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 88vh;
+        left: 25%;
+        width: 50%;
+        height: 6vh;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+        opacity: 10;
+    }
+    h2{
+        position: absolute;
+        left: 17%;
+        font-size: 14px;
+    }
+    .div-competences{
+        background-color: transparent;
+        position: relative;
+        top: 97vh;
+        left: 0%;
+        width: 100%;
+        height: 60vh;
+        border-radius: 3%;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    .div-competences-1{
+        background-color: transparent;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 50px;
+    }
+    .competence{
+        background-color: gray;
+        width: 22%;
+        height: 3%;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+    }
+    .competence:hover{
+        background-color: green;
+    }
+    .p-competence{
+        font-size: 12px;
+        margin-top: 31%;
+        text-align: center;
+    }
+    footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 260vh;
+        left: 0%;
+        width: 100%;
+        height: 10vh;
+    }
+    .div-footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .p-footer{
+        font-size: 10px;
+    }
+    
+}
+
+
+/* phone en orientation lanscape */
+@media only screen and (max-width: 680px) and (max-height: 440px){
+    body{
+        font-family: 'open sans',sans-serif;
+        background-color: #d4d4d4;
+    }
+    .div-fixed{
+        position: fixed;
+        background-color: #d4d4d4;
+        top: auto;
+        left: 0vh;
+        width: 100%;
+        height: 100vh;
+    }
+    .photo-1{
+        position: absolute;
+        left: 5%;
+        bottom: -120vh;
+        box-shadow: 0px 0px 10px #d4d4d4;
+    }
+    .photo-pc{
+        opacity: 0;
+        position: absolute;
+        left: 5%;
+        bottom: 10vh;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    /* div de la tete fixe */
+    .div-tete{
+        margin-top: 0%;
+        background-color: #d4d4d4;
+        position: fixed;
+        background-position: center;
+        top: 0vh;
+        left: 0%;
+        width: 100%;
+        height: 75px;
+    }
+    .mon-logo{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 12%;
+        height: 50%;
+    }
+    .div-liens{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 45%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+        font-size: 12.5px;
+        margin-top: 5%;
+    }
+    /* header */
+    header{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 0px;
+        left: 0%;
+        width: 100%;
+        height: 300px;
+    }
+    .div-bienvenu{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 90%;
+        height: 60%;
+    }
+    .photo-bienvenu{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    /* les divs aui couvres la div-header-1 gauche droite haut bas */
+    .div-h-1{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 75px;
+        left: 0%;
+        width: 100%;
+        height: 25px;
+    }
+    .div-h-2{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 400px;
+        left: 0%;
+        width: 100%;
+        height: 100px;
+    }
+    /* div reseaux sociaux*/
+    .div-reseaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-reseaux-sociaux{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 2.5%;
+        left: 7.5%;
+        width: 85%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 2%;
+    }
+    .logo{
+        width: 60%;
+        height: 90%;
+    }
+    .p-logo{
+        font-size: 10px;
+    }
+    .div-valeur{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .div-header-1-1{
+        background-color: gray;
+        position: absolute;
+        top: 100px;
+        left: 5%;
+        width: 90%;
+        height: 300px;
+        opacity: 0;
+    }
+    /* section */
+    section{
+        background-color: transparent;
+        position: absolute;
+        top: 500px;
+        left: 0%;
+        width: 100%;
+        height: 1050px;
+    }
+    .div-h2-parcour{
+        background-color: #d4d4d4;
+        position: relative;
+        top: 100px;
+        left: 25%;
+        width: 50%;
+        height: 45px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+    }
+    .div-parcour{
+        background-color: transparent;
+        position: relative;
+        top: 550px;
+        left: 0%;
+        width: 100%;
+        height: 400px;
+        border-radius: 0px;
+        padding-top: 5%;
+        border-top: 1px solid gray;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    .div-contenu-parcour{
+        background-color: transparent;
+        position: absolute;
+        top: 5%;
+        left: 2.5%;
+        width: 95%;
+        height: 90%;
+    }
+    .div-h2-competences{
+        background-color: #d4d4d4;
+        position: relative;
+        top: 475px;
+        left: 25%;
+        width: 50%;
+        height: 35px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+    }
+    h2{
+        position: absolute;
+        left: 30%;
+        font-size: 13px;
+    }
+    .div-competences{
+        background-color: transparent;
+        position: relative;
+        top: 480px;
+        left: 0%;
+        width: 100%;
+        height: 500px;
+        border-radius: 3%;
+        box-shadow: 0px 0px 0px #d4d4d4;
+    }
+    .div-competences-1{
+        background-color: transparent;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 50px;
+    }
+    .competence{
+        background-color: #d4d4d4;
+        width: 21%;
+        height: 4%;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px gray;
+    }
+    .p-competence{
+        font-size: 13px;
+        margin-top: 31%;
+        text-align: center;
+    }
+    footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 1550px;
+        left: 0%;
+        width: 100%;
+        height: 50px;
+    }
+    .div-footer{
+        background-color: #d4d4d4;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .p-footer{
+        font-size: 10px;
+    }
+    
+}
